@@ -8,7 +8,8 @@ Today I played around with GitHub and installed **Git** for windows. Changed my 
 
 ![Git GUI](2018-02-25-repos_sndcreations.png)
 
-### GIT Bash
+#### GIT Bash
 Also used Git Bash..
+
 ![Git Bash](2018-02-25-gitbash.png)
 
