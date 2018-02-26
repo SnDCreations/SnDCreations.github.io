@@ -11,5 +11,5 @@ Today I played around with GitHub and installed **Git** for windows. Changed my 
 #### GIT Bash
 Also used Git Bash..
 
-![Git Bash](/_assets/2018-02-25-gitbash.png)
+![Git Bash](./_assets/2018-02-25-gitbash.png)
 
