@@ -1,7 +1,7 @@
 ---
 title: "Tried Ubuntu 17.10"
 layout: post
-date: '2018-03-01'
+date: 2018-03-01
 ---
 
 To day I have tried Ubuntu 17.10 on new laptop. Previously tried the Ubuntu 16.04.
