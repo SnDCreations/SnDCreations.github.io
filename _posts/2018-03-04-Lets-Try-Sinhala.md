@@ -16,6 +16,6 @@ So I tried using [Google Sinhala Input](https://www.google.com/intl/si/inputtool
 සිංහල ලිවීම හරිම ලේසියි .
 මෙන්න මෙහෙමයි . 
 
-[!Sinhala Input](/assets/2018-03-04-sinhala-input.png)
+[!Sinhala Input from Google](/assets/2018-03-04-sinhala-input.png)
 
 ---
