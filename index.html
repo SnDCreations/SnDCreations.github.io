@@ -15,3 +15,11 @@ title: SnD Creations
   {% assign content = post.content %}
   {% include post_detail.html %}
 </div>
+<div>
+        <h2>Recent Posts</h2>
+        <ul class="posts">  
+            {% for post in site.posts limit:5 %}  
+               <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>  
+            {% endfor %}  
+        </ul>
+</div>
