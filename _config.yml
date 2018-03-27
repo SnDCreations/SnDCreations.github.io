@@ -2,3 +2,6 @@ theme: jekyll-theme-cayman
 name: Sudarshana A, SnD Creations
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+katex: true # Enable if using math markup
+
