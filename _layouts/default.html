@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-	<html>
+<html lang="en">
 		<head>
+			<meta charset="utf-8">
+  			<meta name="viewport" content="width=device-width, initial-scale=1">
+  			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<link rel="stylesheet" href="/css/test.css">
+  			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			
-			<!-- Global site tag (gtag.js) - Google Analytics -->
+      
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18635046-2"></script>
 			<script>
 			  window.dataLayer = window.dataLayer || [];
@@ -14,34 +18,43 @@
 
 			  gtag('config', 'UA-18635046-2');
 			</script>
-			
-			
-			
+    
 		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<!-- <li><a href="/cv">CV</a></li> -->
-	        		<li><a href="/blog">Blog</a></li>
-				<!-- <li><a href="/scratchpad.md">Scratch Pad</a></li> -->
-				<li><a href="/blog/atom.xml">RSS>></a></li>
-			
-				
-			</ul>
+		<body>		
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="/">SnD Creations</a>
+			    </div>
+			    <ul class="nav navbar-nav">
+			      <li class="active"><a href="/">Home</a></li>
+			      <li><a href="/about">About</a></li>
+			      <li><a href="/blog">Blog</a></li>
+			      <li><a href="/blog/atom.xml">RSS>></a></li>
+			    </ul>
+			  </div>
 			</nav>
-			
-			<div class="container">
+			<div class="container-fluid">
 			
 			{{ content }}
 			
 			</div><!-- /.container -->
-			<footer>
-	    		<ul>
+
+			<style>
+			.bg-4 { 
+			    background-color: #2f2f2f;
+			    color: #ffffff;
+			}
+			
+			</style>
+
+
+			<footer class="container-fluid bg-4 text-center">
+  				<ul>
 	        		<li><a href="https://github.com/SnDCreations">GitHub</a></li>
 	        		<li><a href="https://sndcreations.github.io/">sndcreations.github.io</a></li>
-				</ul>
+				</ul> 
 			</footer>
+				
 		</body>
 	</html>
